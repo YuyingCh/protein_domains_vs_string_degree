@@ -19,7 +19,7 @@ boxplot.png : downloads/*.txt environment.yml network.py
 	conda activate networkAnalysis
 	python network.py
 
-## clean : remove downloads and generated plotcd
+## clean : remove downloads and the generated plots
 .PHONY : clean
 clean :
 	rm -f boxplot.png
